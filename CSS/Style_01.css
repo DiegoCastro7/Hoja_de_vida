@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+}
+#izquierda{
+    width: 33%;
+    height: 100%;
+}
+#central{
+    width: 33%;
+    height: 100%;
+}
+#derecha{
+    width: 33%;
+    height: 100%;
+}
+#foto{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: black solid;
+}
