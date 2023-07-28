@@ -1,26 +1,159 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-main{
+
+body {
+    font-family:cursive; 
+    line-height: 1.3;
+    background-color: #f59999;
+}
+
+main {
     display: flex;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    min-height: 100vh;
 }
-#izquierda{
-    width: 33%;
-    height: 100%;
+
+.personal {
+    flex: 1;
+    padding: 20px;
+    background-color: #e4fce4;
+    height: 100vh;
+    
 }
-#central{
-    width: 33%;
-    height: 100%;
+
+.primero {
+    display: flex;
+    align-items: center;
+    background-color: #427749;
+    padding: 10px;
+    
 }
-#derecha{
-    width: 33%;
-    height: 100%;
+
+.titulo {
+    color: #fff;
+    font-size: 30px;
+    margin-left: 120px;
 }
-#foto{
+
+.foto {
+    background-image: url(../IMAGES/foto.jpeg);
+    border: 2px solid #fff;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 110px;
+    width: 110px;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    border: black solid;
 }
+
+.datos {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.skills {
+    flex: 1;
+    padding: 20px;
+    background-color: #e3ecfa;
+    margin-left: 20px;
+    height: 100vh;
+}
+
+#tskills {
+    background-color: #516ce6;
+    padding: 20px;
+}
+
+#tskills h2 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.contenido {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#skill .listas {
+    margin-left: 20px;
+}
+
+#skill .listas > dl {
+    color: #516ce6;
+    font-weight: bold;
+}
+
+#skill .listas > dt {
+    margin-left: 15px;
+}
+
+.profesional {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffe2e2;
+    margin-left: 20px;
+    height: 100vh;
+}
+
+.profesional h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.profesional .listas > dl {
+    text-align: left;
+    font-size: 20px;
+    color: #ee5656;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.profesional .listas > dt {
+    text-align: left;
+    margin-left: 25px;
+}
+
+.idiomas, .estudios, .experiencia {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.idiomas h2, .estudios h2, .experiencia h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    background-color: #ee5656;
+    color: #fff;
+}
+
+.idiomas .listas, .estudios .listas, .experiencia .listas {
+    margin-left: 20px;
+}
+
+.idiomas .listas > dl, .estudios .listas > dl, .experiencia .listas > dl {
+    color: #ee5656;
+    font-weight: bold;
+}
+
+.idiomas .listas > dt, .estudios .listas > dt, .experiencia .listas > dt {
+    margin-left: 15px;
+}
+
+body, main, section {
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+section {
+    height:1000;
+}
+
